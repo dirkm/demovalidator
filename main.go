@@ -6,7 +6,6 @@ import (
 	"github.com/go-playground/validator/v10"
 )
 
-// Test represents a user with validation rules
 type Test struct {
 	Dir string `validate:"dirpath"`
 }
